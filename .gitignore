@@ -1,10 +1,16 @@
-# Node modules
+# Ignore node_modules in the root directory
 node_modules/
-server/node_modules/
+
+# Ignore node_modules inside the client folder
 client/node_modules/
 
-# .env file (contains sensitive information)
-.env
+# Ignore node_modules inside the server folder
+server/node_modules/
+
+# Ignore .env file inside the server folder
+server/.env
+
+
 
 # Logs
 logs
