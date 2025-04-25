@@ -54,15 +54,11 @@ router.get('/api/project_assignments', async (req, res) => {
       .populate('employee_id') // This will populate the employee details
       .populate('project_code'); // This will populate the project details
 
-    // Log the populated data to ensure it's being fetched correctly
-    console.log(assignments);
-
     res.status(200).json(assignments);  // Return populated assignments
   } catch (err) {
     console.error('Error fetching assignments:', err);
     res.status(500).json({ message: 'Error fetching assignments' });
   }
 });
-
 
 module.exports = router;

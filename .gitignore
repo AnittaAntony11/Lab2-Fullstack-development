@@ -1,3 +1,11 @@
+# Node modules
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# .env file (contains sensitive information)
+.env
+
 # Logs
 logs
 *.log
@@ -7,11 +15,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Node modules
-node_modules/
-server/node_modules/
-client/node_modules/
-
 # Build output
 dist
 dist-ssr
@@ -20,9 +23,8 @@ dist-ssr
 *.local
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+.vscode/
+.idea/
 .DS_Store
 *.suo
 *.ntvs*

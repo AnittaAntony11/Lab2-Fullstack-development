@@ -13,8 +13,8 @@ const employees = [
 ];
 
 const projects = [
-  { project_code: 'P001', project_name: 'Project Alpha', project_description: 'A description of Project Alpha.' },
-  { project_code: 'P002', project_name: 'Project Beta', project_description: 'A description of Project Beta.' },
+  { project_code: 'P001', project_name: 'Project 1', project_description: 'A description of Project Alpha.' },
+  { project_code: 'P002', project_name: 'Project 2', project_description: 'A description of Project Beta.' },
   { project_code: 'P003', project_name: 'Project Gamma', project_description: 'A description of Project Gamma.' },
   { project_code: 'P004', project_name: 'Project Delta', project_description: 'A description of Project Delta.' },
   { project_code: 'P005', project_name: 'Project Epsilon', project_description: 'A description of Project Epsilon.' },
